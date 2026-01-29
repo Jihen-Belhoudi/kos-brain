@@ -22,21 +22,8 @@ KOS addresses these limitations by:
 
 ## High-Level Architecture
 
-Documents (PDF / TXT / MD)
-↓
-Document Loader
-↓
-Text Chunking
-↓
-Embeddings (Sentence Transformers)
-↓
-Vector Database (ChromaDB)
-↓
-Relevant Context Retrieval
-↓
-Local LLM (Ollama + Mistral)
-↓
-Final Answer
+Documents (PDF / TXT / MD) -> Document Loader -> Text Chunking -> Embeddings (Sentence Transformers) -> Vector Database (ChromaDB) -> Relevant Context Retrieval -> Local LLM (Ollama + Mistral)
+-> Final Answer
 
 
 ## Installation
@@ -76,3 +63,4 @@ python main.py
 - Source citations
 - Multi-agent orchestration
 - API interface
+
